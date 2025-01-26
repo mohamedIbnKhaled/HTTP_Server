@@ -50,7 +50,7 @@ public class ConfigurationManger {
             throw new RuntimeException("Error parsing the config file internal");
         }
     }
-    public Configuration getCurrentConfiguratoin() throws Exception {
+    public Configuration getCurrentConfiguration() throws Exception {
         if(myCurrentConfiguration==null){
             throw new Exception("no Current Config");
         }
